@@ -1,0 +1,418 @@
+/* Estilo general */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: #181A1B;
+  }
+  /* Header */
+  header {
+    background: url(img/header.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 90px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    font: size 80px;
+    padding: 10px 20px;
+  }
+  h1, a{
+    color: #f00908;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+  header,h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin:auto;
+  }  
+  header a {
+    text-decoration: none;
+  }
+  header img {
+    height: 80px;
+    max-width: 80px;
+  }
+  /* Navegación */
+  nav {
+    background-image: url(img/Header.jpg);
+    background-size: cover;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-position:center;
+    display: flex;
+    align-items: right;
+    justify-content:right!important;
+  }
+  .boton {
+    display: flex;
+    align-items: right;
+    padding: 10px 15px;
+    border-radius: 40px; 
+    text-decoration: none;
+    margin-left: 10px;
+    border-style: groove;
+    border-color: #ed7a09;
+    justify-content: space-around;
+    color: #fff;
+    transition: all 0.3s ease;
+  }
+  .botonnotebooks{
+    display: flex;
+    align-items: right;
+    padding: 10px 15px;
+    border-radius: 40px; 
+    text-decoration: none;
+    margin-left: 10px;
+    border-style: groove;
+    border-color: #ed7a09;
+    justify-content: space-around;
+    color: #fff;
+    transition: all 0.3s ease;
+    height: 50px;
+    margin-left: 20px;
+  }
+  .botonnotebooks i{
+    margin-left: 6px;
+    font-size: 18px;
+  }
+  .botonelectrodomesticos{
+    display: flex;
+    align-items: right;
+    padding: 10px 15px;
+    border-radius: 40px; 
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 7px;
+    border-style: groove;
+    border-color: #ed7a09;
+    justify-content: space-around;
+    color: #fff;
+    transition: all 0.3s ease;
+    width: 490px;
+    height: 50px;
+    margin-right: 15px;
+  }
+  .botonelectrodomesticos i{
+    margin-left: 6px;
+    font-size: 18px;
+  }
+  .botoncelulares{
+    display: flex;
+    align-items: right;
+    padding: 10px 15px;
+    border-radius: 40px; 
+    text-decoration: none;
+    margin-right: 15px;
+    margin-left: 10px;
+    border-style: groove;
+    border-color: #ed7a09;
+    justify-content: space-around;
+    color: #fff;
+    transition: all 0.3s ease;
+  }
+  .botoncelulares i{
+    margin-left: 6px;
+  }
+  .botoncartel{
+    display: flex;
+    align-items: right;
+    padding: 10px 15px;
+    border-radius: 40px; 
+    text-decoration: none;
+    border-style: groove;
+    margin-right: 10px;
+    border-color: #ed7a09;
+    justify-content: space-around;
+    color: #fff;
+    transition: all 0.3s ease;
+    height: 50px;
+    font-size: 13px;
+  }
+  .botoninicio{
+    display: flex;
+    align-items: left;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease;
+    border-style: inset;
+    border-color: #ed7a09;
+    width: 220px;
+    font-size: 13,2px;
+    height: 50px;
+  }
+  .botoninicio:hover {
+    background-color: #050767;
+  }
+  
+  .botoninicio:active {
+    background-color: #050767;
+  }
+  
+  .botoninicio i {
+    margin-left: 1px;
+    font-size: 18px;
+    color: #f00908;
+  }
+  i{
+    color: #f00908;
+  }
+  .boton:hover {
+    background-color: #050767;
+  }  
+  .boton:active {
+    background-color: #050767;
+  }
+  .boton i {
+    margin-left: 5px;
+    font-size: 18px;
+  }
+  .boton, .boton1{
+    display: flex;
+    align-items: start;
+    padding: 10px 15px;
+    border-radius: 40px;
+    margin: 0 9px; 
+    margin-bottom: 10px;
+    text-decoration: none;
+    border-style: groove;
+    border-color: #ed7a09;
+    color: #fff;
+    transition: all 0.3s ease;
+  }
+  footer{
+    display: flex;
+    background-image: url(img/Header.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    align-items: center;
+    color: #fff;
+  }
+  /*Carrusel de productos destacados*/
+  #productos-destacados {
+    background-color:#a47f1a;
+    border: #000;
+    border: 1px solid #a47f1a; /* Borde alrededor de la sección */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 20px;
+    margin-bottom: 0px!important;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  #productos-destacados, h2{
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+  }
+  .carrusel {
+    display: flex;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+  }
+  .item {
+    flex: 0 0 25%;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out; /* Agrega una transición suave */
+    /* Responsive */
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  }
+  .item img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+  }
+  .item:hover{
+    transform: scale(1.05); /* Zoom al pasar el ratón por encima */ 
+  }  
+  .item h3 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .item p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .anterior, .siguiente {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #fff;
+    margin: 0 10px;
+    transition: 0.3s;
+  }
+  .anterior:hover, .siguiente:hover {
+    background-color: #ccc;
+  }
+  /*Seccion promociones bancarias*/
+  #promociones-bancarias{
+    background-color: #a47f1a;
+    padding: 10px;
+    margin-top: 0;
+    width: 80%;
+    margin-left: 15px;
+    margin-right: 1px;
+    /* Responsive */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2px;
+    justify-content: center;
+  
+  }
+  #promociones-bancarias h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 20px;
+    transition: color 0.3s ease-in-out; /* Tiempo de transición y tipo de curva */
+  }
+  #promociones-bancarias h2:hover{
+    color: #050767; /* Color al pasar el mouse */
+  }  
+  .contenedor-imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    /* Justifica las imágenes */
+    justify-content: space-around;
+    background-color: #a47f1a;
+    max-width: 800px;
+    margin: 5px;
+  }
+  .contenedor-imagenes img {
+    width: 200px;
+    margin: 10px;
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out; /* Agrega una transición suave */
+    /* Responsive */
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  } 
+  .contenedor-imagenes img:hover{
+    transform: scale(1.1); /* Zoom al pasar el ratón por encima */ 
+  }
+  /*Sección quienes somos*/
+  #quienessomos{
+    margin-left: 15px;
+    margin-right: 15px;
+    background-image: url(img/Header.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 20px;
+  }
+  #quienessomos,h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  .info-empresa, h3{
+    text-align: space-between;
+    padding: 15px;
+  }
+  .informacion-contacto {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #a47f1a;
+    border-radius: 10px;
+    text-align: left;
+    width: 280px;
+  }
+  .informacion-contacto:hover{
+    transition: transform 0.3s ease-in-out; /* Agrega una transición suave */
+    /* Responsive */
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+    transform: scale(1.1); /* Zoom al pasar el ratón por encima */
+  }
+  .informacion-contacto, h2 {
+    color:#f00908;
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  .informacion-contacto ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .informacion-contacto ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .informacion-contacto i {
+    margin-right: 10px;
+    color: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .informacion-contacto a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+  }
+  
+  .informacion-contacto a:hover {
+    text-decoration: underline;
+  }  
+  /* Media queries */
+  @media (max-width: 800px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    nav {
+      margin-top: 20px;
+    }
+    #subtitulo {
+      position: static;
+      width: auto;
+    }
+    .boton {
+     margin:10px
+    }
+    /*Carrusel de destacados - sección responsive*/
+    .carrusel {
+      flex-direction: column;
+    }
+    .item {
+      flex: 0 0 100%;
+    }
+  }

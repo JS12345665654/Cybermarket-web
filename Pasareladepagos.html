@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+        <!-- custom css file link  -->
+        <link rel="stylesheet" href="Pasareladepagos.css">
+        <title>Modo de pago</title>
+    </head>
+    <body>
+        <div class="container">
+            <form action="">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="title">Datos Personales</h3>
+
+                        <div class="inputBox">
+                            <span>Nombre completo:</span>
+                            <input type="text" placeholder="Tu nombre">
+                        </div>
+                        <div class="inputBox">
+                            <span>Correo:</span>
+                            <input type="email" placeholder="correoejemplo@gmail.com">
+                        </div>
+                        <div class="inputBox">
+                            <span>Dirección:</span>
+                            <input type="text" placeholder="Altura-Calle-Departamento">
+                        </div>
+                        <div class="inputBox">
+                            <span>Ciudad:</span>
+                            <input type="text" placeholder="tu ciudad">
+                        </div>
+                        <div class="flex">
+                            <div class="inputBox">
+                                <span>Estado:</span>
+                                <input type="text" placeholder="tu pais">
+                            </div>
+                            <div class="inputBox">
+                                <span>N° identificación:</span>
+                                <input type="text" placeholder="00 000 000">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+
+                        <h3 class="title">Pago</h3>
+
+                        <div class="inputBox">
+                            <span>Todas las tarjetas aceptadas:</span>
+                            <img src="img/card_img.webp" alt="">
+                        </div>
+                        <div class="inputBox">
+                            <span>Titular de la tarjeta:</span>
+                            <input type="text" placeholder="nombre que figura en la tarjeta">
+                        </div>
+                        <div class="inputBox">
+                            <span>Número de tarjeta :</span>
+                            <input type="number" placeholder="1111-1112-1113">
+                        </div>
+                        <div class="inputBox">
+                            <span>Mes de vencimiento:</span>
+                            <input type="text" placeholder="00/00/00">
+                        </div>
+                        <div class="flex">
+                            <div class="inputBox">
+                                <span>Año vencimiento:</span>
+                                <input type="number" placeholder="00/00/00">
+                            </div>
+                            <div class="inputBox">
+                                <span>CVV:</span>
+                                <input type="text" placeholder="000">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <input type="submit" value="Procesar pago" class="submit-btn">
+                <script>
+                    const submitButton = document.querySelector('.submit-btn');
+                    submitButton.addEventListener('click', () => {
+                        alert('Gracias por su compra!');
+                    });
+                </script>
+            </form>
+        </div>     
+    </body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Celularesytablets.css">
+    <script src="Celularesytablets.js" async></script>
+    <title>Celulares </title>
+</head>
+<body style="background-color: #181A1B;">
+    <header>
+        <img src="img/Logo.png" alt="Cybermarket" style="height: 80px;">
+        <h1>Lo mas relevante en telefonía móvil</h1>
+        <nav>
+            <a href="Index.html" class="boton">Volver a inicio<i class="fa-solid fa-home"></i></a>
+        </nav>
+    </header>
+    <section class="contenedor">
+        <!-- Contenedor de elementos -->
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">Samsung A04E</span>
+                <img src="img/Samsung A04E.webp" alt="" class="img-item">
+                <span class="precio-item">$175.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Samsung A14</span>
+                <img src="img/Samsung A14.webp" alt="" class="img-item">
+                <span class="precio-item">$435.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Samsung Galaxy A54</span>
+                <img src="img/Samsung Galaxy A54.webp" alt="" class="img-item">
+                <span class="precio-item">$880.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Xiaomi Redmi 10C</span>
+                <img src="img/Xiaomi Redmi 10C.webp" alt="" class="img-item">
+                <span class="precio-item">$250.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Xiaomi Redmi 10C</span>
+                <img src="img/Xiaomi Redmi 10C.webp" alt="" class="img-item">
+                <span class="precio-item">$250.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Xiaomi Redmi 11 K7TL</span>
+                <img src="img/Xiaomi Redmi 11 K7TL.webp" alt="" class="img-item">
+                <span class="precio-item">$400.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Xiaomi Redmi 12</span>
+                <img src="img/Xiaomi Redmi 12.webp" alt="" class="img-item">
+                <span class="precio-item">$270.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Xiaomi Redmi Note</span>
+                <img src="img/Xiaomi Redmi Note.webp" alt="" class="img-item">
+                <span class="precio-item">$400.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">ZTE Blade V40</span>
+                <img src="img/ZTE Blade V40.webp" alt="" class="img-item">
+                <span class="precio-item">$150.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">ZTE Blade A72S</span>
+                <img src="img/ZTE Blade A72S.webp" alt="" class="img-item">
+                <span class="precio-item">$170.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">ZTE Blade A33</span>
+                <img src="img/ZTE Blade A33.webp" alt="" class="img-item">
+                <span class="precio-item">$90.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">ZTE Blade A53 Plus</span>
+                <img src="img/ZTE Blade A53 Plus.webp" alt="" class="img-item">
+                <span class="precio-item">$200.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+        </div>
+        <!-- Carrito de Compras -->
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2>Tu Carrito      <i class="fa-solid fa-cart-shopping"></i></h2>
+            </div>
+
+            <div class="carrito-items">
+                <!-- 
+                <div class="carrito-item">
+                    <img src="img/boxengasse.png" width="80px" alt="">
+                    <div class="carrito-item-detalles">
+                        <span class="carrito-item-titulo">Box Engasse</span>
+                        <div class="selector-cantidad">
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+                        </div>
+                        <span class="carrito-item-precio">$15.000,00</span>
+                    </div>
+                   <span class="btn-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                   </span>
+                </div>
+                <div class="carrito-item">
+                    <img src="img/skinglam.png" width="80px" alt="">
+                    <div class="carrito-item-detalles">
+                        <span class="carrito-item-titulo">Skin Glam</span>
+                        <div class="selector-cantidad">
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="3" class="carrito-item-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+                        </div>
+                        <span class="carrito-item-precio">$18.000,00</span>
+                    </div>
+                   <button class="btn-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                   </button>
+                </div>
+                 -->
+            </div>
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total">
+                        $20.000.000
+                    </span>
+                </div>
+                <a href="Pasareladepagos.html" class="boton">Realizar el pago</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
